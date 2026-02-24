@@ -1,0 +1,44 @@
+HTTP request–response cycle.
+
+1. User sends an HTTP Request - types a URL or clicks a link..
+   A request contains:
+   Method → GET, POST, PUT, DELETE
+   URL / path → /, /about
+   HTTP version
+   Headers → metadata (browser type, content type, etc.)
+   Body (optional) → data sent to server (forms, JSON)
+
+2. Server receives the request
+   req → contains request data (URL, method, headers)
+   res → used to send data back to the client
+
+3. Server processes the request - checks the URL, read files..
+
+4. Server sends an HTTP Response
+   A response contains:
+   HTTP version - generally HTTP/1.1
+   Status code → 200, 100, 404, 500
+   Headers → content type, length, etc.
+   Body → data (HTML, JSON, text, file)
+
+5. Browser receives the response
+
+=> servers are just computers whose job is to make the resources available to the user
+
+
+HTTP METHODS 
+GET - Read data (default HTTP request method)
+POST - Insert data
+PUT - Update data
+DELETE - delete data
+
+
+Remove the remote URL - rm -rf .git(for mac)
+                        rmdir - Force -Recurse .git(windows) or rd /s /q .git
+
+HTTP RESPONSE -:
+Informational responses (100 – 199)
+Successful responses (200 – 299)
+Redirection messages (300 – 399)
+Client error responses (400 – 499)
+Server error responses (500 – 599)
