@@ -1,0 +1,16 @@
+mongoose.connect("mongodb+srv://syncdecodesDB:devdatabase@backenddb.mupx8xg.mongodb.net/Node-API?appName=BackendDB")
+.then(()=>{
+    console.log('connected to database')
+})
+.catch((err)=>{
+    console.log('database connection failed', err)
+})
+
+mongoose.connect("mongodb+srv://syncdecodesDB:<db_password>@backenddb.mupx8xg.mongodb.net/?appName=BackendDB")
+
+
+| JavaScript Array | Mongoose        |
+| ---------------- | --------------- |
+| `.find(cb)`      | `.findById(id)` |
+| `.filter(cb)`    | `.find({})`     |
+| Loop in memory   | Query database  |
