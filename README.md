@@ -54,4 +54,4 @@ but feedback, suggestions, best practices, or learning resources are always welc
 
 DEV
 
-Created by [syncdecodes](https://github.com/syncdecodes)
+Created by [imdevvx](https://github.com/imdevvx/)
